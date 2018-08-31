@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reetta's Page</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Software Engineer Student porfolio">
+        <meta name="keywords" content="Anna-Reetta,Reetta,Julkunen,Reetta Julkunen,Anna-Reetta Julkunen">
+        <meta name="author" content="Anna-Reetta Julkunen">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="Styles/main.css">
+        
+    </head>
+   <body>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a class="navbar-brand" href="#header">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-4">
+                    <li class="nav-item">
+                        <a class="nav-link"  href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#school">SCHOOL</a>
+                    </li>
+                </ul>                                
+            </div>              
+        </nav>
+       <header>
+            <div id="header" class="container text-center header">
+                <h1>Anna-Reetta Julkunen</h1>
+                <h3>Software Engineer Student</h3>
+            </div>
+        </header>
+        <section id="about">
+            <div class="about">
+                <h1 class="text-center">About Me</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <img src="Images/portrait.png" class="img-fluid" alt="Reetta">
+                            <div class="text-center contact-info">
+                                <h5>Find Me Here!</h5>
+                                <p><a href="https://www.linkedin.com/in/anna-reetta-julkunen-37741bb2/">LinkedIn</a> | <a href="https://github.com/annareej">GitHub</a></p>
+                                <p>Auronjii@IRCnet<br />
+                                    ar.julkunen@gmail.com<br /></p>
+                                <p>Download CV <a href="CV_en.pdf">.pdf</a></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-12 desc">
+
+                            <h3>Hello!</h3>
+
+                            <p>Fancy seeing you here! My name is Reetta and I heartily welcome you to my page. Since you're here, i could probably tell you something about myself.</p>
+
+                            <p>At the time, I'm studying software engineering at Metropolia University of Applied Sciences. So when I grow up I will be an engineer!</p>
+
+                            <p>I have experience in Java development from school and from my last workplace. I did back-end development tasks of webshops using frameworks like Spring and Hibernate. We also have mainly been using Java in our school courses.  I have some experience in front-end development using technologies like HTML/CSS and JavaScript. I think at least my basic knowledge of the technologies is fairly decent and I’m always looking for opportunities to improve my skills.</p>  
+
+                            <p>I am a kind and social person and I get along with many kinds of people. I have served as a tutor in my school for some years now and have gained some valuable experience in social skills. I have also been fairly active in student organization activities and been part of organizing student events like LAN-parties and such. I can work well in a team but I’m not afraid of independent work either.</p>
+
+                            <p>In my free time I like to play games (both virtual and tabletop), read books, play my flute and weave the tales of heroes as a dungeon master in the game of DnD.</p>
+
+                            <p>If you would like to know more please do not hesitate to contact and ask!</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="projects">
+                <h1 class ="text-center">Projects</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <h3>BaariSovellus</h3>
+
+                            <p>A school project for a course where we studied SQL databases, mainly MySQL.
+                                It's purpose was to learn to develop a database software that uses Hibernate.</p>
+                            <p>The requirements for the software were that it should be able to add, remove, read and modify data in the database.
+                            It was possible to raise the grade by adding a GUI using Swing elements and MVC pattern.</p>
+
+                            <p>Used technologies: Java, MySQL, Hibernate, Swing</p>
+                            <p><a href="https://github.com/annareej/BaariSovellus">Project GitHub</a></p>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <h3>Kanji Flashcards</h3>
+
+                            <p>Work in progress...</p>
+
+                            <p>I am a big fan of japanese culture so I have been studying the language so I don't need subtitles when I finally make a trip there.
+                            I know that the best way for me to learn vocabulary and lettering is to gamify the process. The idea is to develop software to make it easy to pick kanjis and quiz them.</p>
+
+                            <p>Used technologies: HTML5/CSS3, JavaScript, PHP, MySQL</p>
+                            <p><a href="https://github.com/annareej/KanjiFlashcards">Project GitHub</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="school">
+            <div class="school">
+                <h1 class="text-center">School</h1>
+                <div class="container">
+                    <div class="table-wrapper-scroll-y" id="studies"></div>
+                </div>       
+            </div>
+        </section>
+       <script src="JS/main.js"></script>
+        <footer>
+            <div class="text-center">
+                <p>&copy Anna-Reetta Julkunen 2018</p>
+            </div>
+        </footer>
+    </body>
+</html>

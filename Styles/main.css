@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+    font-family: Roboto Condensed;
+}
+
+.navbar {
+    background: black;
+    font-family: Oswald;
+    font-size: 1.5em;
+}
+
+.nav-link, navbar-brand{
+    color: white;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    color: white
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.navbar-toggler{
+    background: #fff;
+}
+
+.header {
+    font-family: Amatic SC;
+    padding-top: 5em;
+    padding-bottom: 50px;;
+} 
+
+@media (max-width: 786px){
+ .header h1{
+    font-size: 4em;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 1px;
+  }
+  
+.header h3 {
+    font-size: 3em;
+    color: #DF01D7;
+}
+}
+
+@media (min-width: 786px) { 
+.header h1{
+    font-size: 5em;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 1px;
+ }
+ .header h3 {
+    font-size: 3em;
+    color: #DF01D7;
+}
+ 
+}
+
+@media (min-width: 992px) {  
+.header h1{
+    font-size: 8em;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 1px;
+    }
+   
+.header h3 {
+    font-size: 5em;
+    color: #DF01D7;
+    }
+}
+h1{
+    padding-bottom: 1em;
+    font-size: 3em;
+    color: #DF01D7;
+    text-decoration: underline;
+    }
+
+.container {
+    padding-bottom: 40px;
+}
+
+.table-wrapper-scroll-y {
+  display: block;
+  max-height: 200px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.contact-info{
+    padding-top: 15px;
+}
